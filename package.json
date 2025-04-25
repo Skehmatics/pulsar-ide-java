@@ -16,7 +16,7 @@
       "order": 10,
       "type": "string",
       "default": "",
-      "description": "Absolute path to Java 8 or later home folder used to launch the Java language server."
+      "description": "Absolute path to Java 21 or later home folder used to launch the Java language server."
     },
     "virtualMachine": {
       "order": 20,
@@ -24,8 +24,8 @@
       "properties": {
         "extraArgs": {
           "type": "string",
-          "default": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
-          "description": "Extra arguments passed to the Java VM when launching the Java Language Server. Eg. use `-noverify -Xmx1G  -XX:+UseG1GC -XX:+UseStringDeduplication` to bypass class verification, increase the heap size to 1GB and enable String deduplication with the G1 Garbage collector."
+          "default": "-Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+          "description": "Extra arguments passed to the Java VM when launching the Java Language Server."
         }
       }
     },
