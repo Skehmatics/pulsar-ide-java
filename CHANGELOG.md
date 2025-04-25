@@ -1,3 +1,11 @@
+## v1.0.0
+
+Forked from [ide-java](https://github.com/atom/ide-java). Welcome to the Pulsar era :3
+
+
+- Update language server to 1.45.0. This raises the minimum Java requirement during runtime to Java 21!
+- Switched from atom-languageclient to [@savetheclocktower's fork](https://github.com/savetheclocktower/atom-languageclient)
+
 ## v0.9.0
 
 - Update language server to 0.39.0 for signature help and many other improvements (#105), thanks @appelgriebsch

@@ -1,15 +1,15 @@
 {
-  "name": "ide-java",
+  "name": "pulsar-ide-java",
   "main": "./lib/main",
-  "version": "0.9.1",
-  "description": "Java language support for Atom-IDE.",
-  "repository": "https://github.com/atom/ide-java",
+  "version": "1.0.0",
+  "description": "Pulsar-native IDE provider package for Java 21 or later.",
+  "repository": "https://github.com/Skehmatics/pulsar-ide-java.git",
   "license": "MIT",
   "scripts": {
-    "test": "atom --test test"
+    "test": "pulsar --test test"
   },
   "engines": {
-    "atom": ">=1.21.0"
+    "atom": ">=1.112.0"
   },
   "configSchema": {
     "javaHome": {
@@ -115,7 +115,8 @@
     "mocha-junit-and-console-reporter": "^1.6.0"
   },
   "enhancedScopes": [
-    "source.java"
+    "source.java",
+    "source.jsp"
   ],
   "consumedServices": {
     "linter-indie": {
